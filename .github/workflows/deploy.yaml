@@ -89,4 +89,4 @@ jobs:
 
       # Step 5: Push the Docker image to GitHub Container Registry
       - name: Push Docker image
-        run: docker push ghcr.io/${{ github.repository }}:latest
+        run: docker push ghcr.io/dragosbp/ci_cd_lab:latest
