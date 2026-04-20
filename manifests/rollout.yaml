@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/dragosbp/go-simple-webserver@sha256:d209dc14ab250396a9196989909f6cf999022c7beb456fbf2352c1f52c3c4b19
+          image: ghcr.io/dragosbp/ci_cd_lab@sha256:d209dc14ab250396a9196989909f6cf999022c7beb456fbf2352c1f52c3c4b19
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
