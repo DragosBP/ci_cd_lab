@@ -85,7 +85,7 @@ jobs:
 
       # Step 4: Build the Docker image and tag it with the repository name and 'latest'
       - name: Build Docker image
-        run: docker build -t ghcr.io/dragosbp/ci_cd_lab:latest ./gsa
+        run: docker build -t ghcr.io/dragosbp/ci_cd_lab:latest ./
 
       # Step 5: Push the Docker image to GitHub Container Registry
       - name: Push Docker image
